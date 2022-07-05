@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MainController {
+
     @RequestMapping("/sbb")
     @ResponseBody
     public String index(){
